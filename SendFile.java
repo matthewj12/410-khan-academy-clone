@@ -1,7 +1,9 @@
 package send;
 import java.io.File;
 import java.io.FileInputStream;
+// Download JSCH library
 import com.jcraft.jsch.*;
+
 public class SendFile {
 	
 	public static void main (String[] args){
