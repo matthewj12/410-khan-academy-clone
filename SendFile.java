@@ -27,7 +27,7 @@ public class SendFile {
 //	    Create session, sftp channel, then transfer file, then close channel, session
 	    try {
 //         File to send
-	    	File f = new File("lol.txt");
+	    	File f = new File("saved1.txt");
 	    	
 	        JSch jsch = new JSch();
 	        session = jsch.getSession(SFTPUSER, SFTPHOST, SFTPPORT);
